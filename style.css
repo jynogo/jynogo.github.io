@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+#rute1 {
+    background-color: pink;
+    width:100px;
+    height:100px;
+    position: relative;
+    left:200px;
+    
+}
+#rute2{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 200px;
+    top: 10px;
+    color: blue
+}
