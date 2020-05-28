@@ -93,19 +93,19 @@ h1 {
    color: #fff;
 }
 #slides .slide_1 {
-   background-image: url(Bilder/travis.jpg);
+   background-image: url(bilder/travis.jpg);
     background-size: cover;
 }
 #slides .slide_2 {
-   background-image: url(Bilder/cart.jpg);
+   background-image: url(bilder/cart.jpg);
     background-size: cover;
 }
 #slides .slide_3 {
-   background-image: url(Bilder/uzi.jpg);
+   background-image: url(bilder/uzi.jpg);
     background-size: cover;
 }
 #slides .slide_4 {
-   background-image: url(Bilder/ty.jpg);
+   background-image: url(bilder/ty.jpg);
     background-size: cover;
     color: white;
 }
