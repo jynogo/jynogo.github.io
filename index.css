@@ -1,0 +1,163 @@
+@font-face {
+    font-family: ye;
+    src: url("vcr_osd_mono_1.001-webfont.woff2"),
+        url('vcr_osd_mono_1.001-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-image: url(Bilder/astro.gif);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    animation: type 3s steps(9);
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    top: 40%;
+    left: 44%;
+    width: 9ch;
+}
+
+.velkommen {
+    font-family: monospace;
+    color: white;
+    position: absolute;
+    top: 48%;
+    left: 41.3%;
+    animation: typep 2s steps(33);
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 33ch;
+    animation-delay: 3.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes type {
+    0% {
+        width: 0ch;
+        visibility: hidden;
+    }
+
+    100% {
+        width: 9ch;
+        visibility: visible;
+    }
+}
+
+@keyframes typep {
+    0% {
+        width: 0ch;
+    }
+
+    100% {
+        width: 33ch;
+        visibility: visible;
+    }
+  }
+
+#hjem {
+    top: 0;
+    left: 0;
+}
+
+#johnny {
+    top: 0;
+    right: 40%;
+}
+
+#fotball {
+    top: 0;
+    right: 0;
+}
+
+#artist {
+    bottom: 0;
+    left: 0;
+}
+
+#kilder {
+    bottom: 0;
+    left:44%;
+}
+
+#bibliotek {
+    bottom: 0;
+    right: 0;
+}
+
+
+.info {
+    position: fixed;
+    padding: 25px 26px;
+    letter-spacing: .20em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: ye;
+    font-size: 17px;
+    color: white;
+}
+
+.arrow {
+    color: white;
+    position: absolute;
+}
+
+#arrowFot {
+    top: 8%;
+    right: 6%;
+}
+
+#arrowArt {
+    bottom: 8%;
+    left: 5.5%;
+}
+
+#arrowOM {
+    top: 8%;
+    left: 49.5%;
+}
+
+.om {
+    font-family: monospace;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+#OmMeg {
+    top: 12%;
+    left: 46.5%;
+}
+
+#omff {
+    top: 12%;
+    right: 1.5%;
+}
+
+#omArt {
+    bottom: 12%;
+    left: 1.5%;
+}
+
+.blink{
+    animation:blinkingText 2s infinite;
+    animation-delay: 7s;
+    visibility: hidden;
+}
+
+@keyframes blinkingText{
+    0%{     color: white;    }
+    49%{    color: white; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: white;
+    visibility: visible;}
+}

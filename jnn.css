@@ -1,0 +1,102 @@
+@font-face {
+    font-family: ye;
+    src: url("vcr_osd_mono_1.001-webfont.woff2"),
+        url('vcr_osd_mono_1.001-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.info {
+    position: fixed;
+    padding: 25px 26px;
+    letter-spacing: .20em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: ye;
+    font-size: 17px;
+    color: white;
+}
+
+#fotball {
+    top: 0;
+    right: 0;
+}
+
+#artist {
+    bottom: 0;
+    left: 0;
+}
+
+#hjem {
+    top: 0;
+    left: 0;
+}
+
+#bibliotek {
+    bottom: 0;
+    right: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+li {
+    text-align: center;
+    display: inline;
+}
+
+.inn {
+    font-family: monospace;
+    color: white;
+}
+
+.rute {
+    height: 500px;
+    width: 600px;
+    position: fixed;
+    left: 200px;
+    top: 40px;
+}
+
+
+.bilde {
+    position: fixed;
+    top: 130px;
+    left: 900px;
+}
+
+.slide {
+    width: 450px;
+    height: 300px;
+    background: url(Bilder/storsj%C3%B8.JPG);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+    position: fixed;
+    top: 70px;
+    left: 900px;
+}
+
+@keyframes slide{
+    25% {
+        background: url(Bilder/johnny.jpg);
+    }
+    50% {
+        background: url(Bilder/cup.PNG);
+    }
+    75%{
+        background: url(Bilder/storsj%C3%B8.JPG);
+    }
+    100% {
+        background: url(Bilder/johnny.jpg);
+    }
+}
